@@ -121,3 +121,17 @@ body{
 .logo>.material-icons{
     font-size: 3.2rem;
 }
+
+.header{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 10px;
+}
+.search{
+    display: flex;
+    gap: 20px;
+}
+.search-input{
+    flex: 1;
+}
