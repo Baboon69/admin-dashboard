@@ -82,7 +82,7 @@ body{
 .header{
     grid-column: 1/3;
 }
-.cards{
+.projects{
     grid-row: 2/4;
 }
 .container>*{
@@ -125,13 +125,111 @@ body{
 .header{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    grid-auto-rows: min-content ;
     gap: 20px;
     padding: 10px;
 }
 .search{
+    align-items: center;
     display: flex;
     gap: 20px;
 }
 .search-input{
     flex: 1;
+}
+.button-icon{
+    background: none;
+    border: 0;
+    box-shadow: 0;
+}
+.button-icon:hover{
+    cursor: pointer;
+}
+.search-input{
+    border:0;
+    box-shadow: 0;
+    background-color: #e3e9f0;
+    height: 2rem;
+    padding: 5px 1rem;
+    border-radius: 1rem;
+    font-size: inherit;
+    font-family: inherit;
+}
+.search-input:active,.search-input:focus{
+    outline: 0;
+}
+.header .material-icons-outlined{
+    font-size: 1.6rem;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    padding: 15px;
+
+}
+.profile-avatar{
+    width: 3rem;
+    padding: .25rem;
+}
+.profile-name{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.profile-info{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.profile-info-avatar{
+    width: 4rem;
+    padding: .25rem;
+}
+.profile-status-text{
+    font-weight: 500;
+    font-size: 1rem;
+}
+.profile-status-name{
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-top: 8px;
+}
+
+.header-buttons{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    justify-content: end;
+}
+.header-button{
+    box-shadow: 0;
+    background-color: #1893d4;
+    border: 0;
+    border-radius: 1.2rem;
+    height: 2.4rem;
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 2.4rem;
+    padding: 0 1.5rem;
+}
+.header-button:hover{
+    cursor: pointer;
+}
+
+.projects-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.project-links{
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}
+.avatar{
+    background-color: #fbcd15;
+    border-radius: 50%;
 }
