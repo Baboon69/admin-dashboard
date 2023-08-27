@@ -118,7 +118,7 @@ body{
     gap: 10px;
     font-weight: 700;
 }
-.logo>.material-icons{
+.logo .iconify{
     font-size: 3.2rem;
 }
 
@@ -158,7 +158,7 @@ body{
 .search-input:active,.search-input:focus{
     outline: 0;
 }
-.header .material-icons-outlined{
+.header .iconify{
     font-size: 1.6rem;
 }
 
@@ -220,9 +220,26 @@ body{
     cursor: pointer;
 }
 
+.projects{
+    background-color: #e3e9f0;
+}
 .projects-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.project{
+    background-color: white;
+    border-left: #fbcd15 10px solid;
+    border-radius: 10px;
+}
+.project-title{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.project-text{
+    font-size: 1rem;
+    color: #666667;
 }
 .project-links{
     display: flex;
@@ -232,4 +249,8 @@ body{
 .avatar{
     background-color: #fbcd15;
     border-radius: 50%;
+}
+.section-title{
+    font-weight: 500;
+    font-size: 1.3rem;
 }
