@@ -75,7 +75,7 @@ ul{
     border: none;
     background-color: var(--grey-clr);
     height: var(--height);
-    width: 500px;
+    width: 750px;
     border-radius: var(--height);
     padding: 0 calc(var(--height)/2);
     font-size: 1.3rem;
