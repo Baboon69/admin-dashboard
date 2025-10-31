@@ -13,8 +13,33 @@
 <body>
     <div class="container">
         <header class="header">
-            <div class="header-top">top</div>
-            <div class="header-profile">profile</div>
+            <div class="header-top">
+                <div class="header-search">
+                    <button type="button" class="search-button">
+                        <span class="mdi mdi-magnify"></span>
+                    </button>
+                    <input type="text" class="search-bar">
+                </div>
+                <div class="header-alerts">
+                    <span class="mdi mdi-bell-ring-outline alert"></span>
+                    <span class="mdi mdi-penguin header-alerts-icon"></span>
+                    <span class="header-alerts-name">Morgan Oakley</span>
+                </div>
+            </div>
+            <div class="header-profile">
+                <div class="profile">
+                    <div class="profile-icon"><span class="mdi mdi-penguin"></span></div>
+                    <div class="profile-info">
+                        <span class="profile-greeting">Hi there,</span>
+                        <span class="profile-name">Morgan Oakley (<span class="profile-tag">@morgan</span>)</span>
+                    </div>
+                </div>
+                <ul class="project-controls">
+                    <li><button type="button" class="project-control-button">New</button></li>
+                    <li><button type="button" class="project-control-button">Upload</button></li>
+                    <li><button type="button" class="project-control-button">Share</button></li>
+                </ul>
+            </div>
         </header>
         <nav class="sidebar">
             <h1 class="logo"><span class="mdi mdi-view-dashboard"></span><span class="logo-text">Dashboard</span></h1>
@@ -34,10 +59,7 @@
         </nav>
         <main class="main">
             <div class="projects">
-                <div class="project"><img src="./img/svg/view-dashboard.svg" alt=""></div>
-                <div class="project">
-                    <span class="mdi mdi-home"></span></div>
-                <div class="project">project 3</div>
+                <div class="projects-title">Your projects</div>
                 <div class="project">project 4</div>
             </div>
             <aside class="prjects-sidebar">sidebar</aside>
