@@ -8,6 +8,7 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 body *{
     padding: 0;
@@ -77,11 +78,17 @@ img{
     margin: 10px;
 }
 .logo .mdi{
-    font-size: 3rem;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
 }
 .sidebar-link{
     display: flex;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: bold;
     gap: 20px;
     margin: 20px;
+}
+.sidebar-link .mdi{
+    font-size: 2rem;
 }
